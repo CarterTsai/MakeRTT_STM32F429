@@ -1,0 +1,11 @@
+--- ../tmp/RT-Thread_1.2.0/bsp/stm32f40x/SConstruct	2014-01-06 22:38:34.000000000 +0800
++++ SConstruct	2014-02-09 01:13:51.266113709 +0800
+@@ -5,7 +5,7 @@
+ if os.getenv('RTT_ROOT'):
+     RTT_ROOT = os.getenv('RTT_ROOT')
+ else:
+-    RTT_ROOT = os.path.normpath(os.getcwd() + '/../..')
++    RTT_ROOT = os.path.normpath(os.getcwd() + '/rt_thread')
+ 
+ sys.path = sys.path + [os.path.join(RTT_ROOT, 'tools')]
+ from building import *
