@@ -3,6 +3,7 @@ Make RT-Thread Shell
 Reference : https://stm32f429.hackpad.com/NOTE-WbiooOfkaoR
 
 ### Install ToolChain
+安裝跟設定是參考連結
 ```
 $> apt-get install gcc-arm-none-eabi
 ```
@@ -28,6 +29,7 @@ export PATH=$STM32_PATH/toolchain/gcc-arm-none-eabi-4_8-2013q4/bin/:$STM32_PATH/
 ```
 
 ### Install Stlink
+安裝跟設定是參考連結
 ```
 $> git clone https://github.com/texane/stlink.git
 $> cd stlink
@@ -39,6 +41,7 @@ $> make install
 在 Ubuntu 下用 stlink，記得要把 49-stlinkv2.rules 檔案複製到 /etc/udev/rules.d/ 目錄下
 
 ### Install OpenOCD
+安裝跟設定是參考連結
 ```
 $> git clone git://git.code.sf.net/p/openocd/code openocd
 $> cd openocd
