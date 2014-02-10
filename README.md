@@ -2,8 +2,8 @@ Make RT-Thread Shell
 --------------------
 Automatic generate RT-Thread Project for STM32F429
 
-Reference : 
-1. [stm32f429 hackpad][1] 
+Reference :  
+1. [stm32f429 hackpad][1]    
 2. [在STM32F429 Discovery上运行RT-Thread实时操作系统][2]
 
 
