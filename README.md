@@ -1,6 +1,11 @@
 Make RT-Thread Shell
 --------------------
-Reference : https://stm32f429.hackpad.com/NOTE-WbiooOfkaoR
+Automatic generate RT-Thread Project for STM32F429
+
+Reference : 
+1. [stm32f429 hackpad][1] 
+2. [在STM32F429 Discovery上运行RT-Thread实时操作系统][2]
+
 
 ### Install ToolChain
 安裝跟設定是參考連結
@@ -66,5 +71,7 @@ if  CROSS_TOOL == 'gcc':
 ```
 ```
 $> scons
-$> st-flash write main.elf 0x8000000
+$> st-flash write rtthread.bin 0x8000000
 ```
+[1]: https://stm32f429.hackpad.com/NOTE-WbiooOfkaoR
+[2]: http://www.devlabs.cn/?p=209

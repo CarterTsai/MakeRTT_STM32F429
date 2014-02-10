@@ -91,5 +91,5 @@ patch < ./patch/application.c.patch ./RTT/applications/application.c
 
 $COPY ./patch/startup_stm32f429_439xx.S ./RTT/
 
-cd $RTT
-$SCONS
+#cd $RTT
+#$SCONS
