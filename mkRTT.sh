@@ -88,6 +88,7 @@ patch < ./patch/rtconfig.py.patch ./RTT/rtconfig.py
 patch < ./patch/root_SConstruct.patch ./RTT/SConstruct
 patch < ./patch/lib_SConscript.patch ./RTT/Libraries/SConscript
 patch < ./patch/application.c.patch ./RTT/applications/application.c
+patch < ./patch/usart.c.patch ./RTT/drivers/usart.c
 
 $COPY ./patch/startup_stm32f429_439xx.S ./RTT/
 
