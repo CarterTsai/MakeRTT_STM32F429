@@ -13,4 +13,5 @@ patch < rtconfig.py.patch ../RTT/rtconfig.py
 patch < root_SConstruct.patch ../RTT/SConstruct   
 patch < lib_SConscript.patch ../RTT/Libraries/SConscript   
 patch < application.c.patch ../RTT/applications/application.c 
+patch < usart.c.patch ../RTT/drivers/usart.c 
 ```
